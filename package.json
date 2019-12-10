@@ -1,0 +1,26 @@
+{
+  "name": "workflow-template",
+  "version": "1.0.0",
+  "description": "simple workflow template for fast and easy website development",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Karol Waliszewski",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-purifycss": "^0.2.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "imagemin-mozjpeg": "^7.0.0",
+    "imagemin-optipng": "^7.0.0",
+"gulp-sass": "^3.1.0",
+"gulp-babel": "^6.1.2",
+  "babel-preset-env": "^1.4.0"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
